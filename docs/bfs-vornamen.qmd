@@ -1,0 +1,68 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+Link: https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.26925126.html
+
+# Männliche Vornamen in der Schweiz
+
+```{r}
+vornamen_m <- read_csv(here::here("data/bfs-vornamen/ts-x-01.04.00.11.csv")) |> 
+    select(-OBS_STATUS, -TIME_PERIOD) |> 
+    mutate(geschlecht = "m") |>
+    janitor::clean_names()
+
+vornamen_w <- read_csv(here::here("data/bfs-vornamen/ts-x-01.04.00.10.csv")) |> 
+    select(-OBS_STATUS, -TIME_PERIOD) |> 
+    mutate(geschlecht = "w") |>
+    janitor::clean_names()
+
+vornamen <- vornamen_m |> 
+    bind_rows(vornamen_w) |> 
+    rename(vorname = firstname,
+           geburtsjahr = yearofbirth,
+           wert = value)
+```
+
+```{r}
+
+vornamen |>
+    count(length = str_length(vorname), wt = wert)
+
+vornamen |> 
+    filter(str_length(vorname) == 20) |> 
+    count(vorname, geschlecht, wt = wert)
+
+vornamen |> 
+    mutate(first = str_sub(vorname, 1, 1),
+           last = str_sub(vorname, -1, -1)) |> 
+    count(last, geschlecht, wt = wert) |> 
+    
+    ggplot(aes(x = reorder(last, n), y = n)) +
+    geom_point() +
+    coord_flip() +
+    facet_wrap(~geschlecht) 
+
+
+# Use stringr R package to identify observations where the last letter of the string is a capitalized I.
+# https://www.perplexity.ai/search/use-stringr-r-package-to-ident-OXEjdKl8Swe2sjH_sJRtZA
+
+
+vornamen |> 
+    filter(str_detect(vorname, "I$"))
+    
+
+
+babynames |> 
+  mutate(
+    first = str_sub(name, 1, 1),
+    last = str_sub(name, -1, -1)
+  )
+```
