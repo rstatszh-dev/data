@@ -1,0 +1,49 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2042@kantonspolizei-kanton-zuerich
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Einbrüche in Zürich
+
+```{r}
+einbrueche_in <- read_csv(here::here("data/ktzh-einbrueche/KTZH_00002042_00004083.csv"))
+
+```
+
+```{r}
+einbrueche <- einbrueche_in |> 
+    select(jahr = Ausgangsjahr,
+           gemeinde_bfs = Gemeinde_BFS_Nr,
+           gemeindename = Gemeindename,
+           stadtkreis_name = Stadtkreis_Name,
+           tatbestand = Tatbestand,
+           straftaten_versucht = Straftaten_versucht,
+           straftaten_vollendet = Straftaten_vollendet,
+           straftaten_total = Straftaten_total,
+           einwohner = Einwohner) |> 
+    filter(tatbestand != "Einbrüche insgesamt") |> 
+    mutate(einbrueche_1000_ew = (straftaten_versucht + straftaten_vollendet) / einwohner * 1000) 
+
+```
+
+```{r}
+einbrueche |> 
+    filter(gemeindename == "Zürich") |> 
+    ggplot(aes(x = jahr, y = einbrueche_1000_ew, color = stadtkreis_name)) +
+    geom_line() +
+    labs(title = "Einbrüche in Zürich",
+         subtitle = "Einbrüche pro 1000 Einwohner",
+         x = "Jahr",
+         y = "Einbrüche pro 1000 Einwohner",
+         color = "Gemeinde") +
+    facet_wrap(~tatbestand) +
+    theme_minimal() 
+```

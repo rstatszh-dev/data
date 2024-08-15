@@ -54,15 +54,17 @@ vornamen |>
 # Use stringr R package to identify observations where the last letter of the string is a capitalized I.
 # https://www.perplexity.ai/search/use-stringr-r-package-to-ident-OXEjdKl8Swe2sjH_sJRtZA
 
-
 vornamen |> 
     filter(str_detect(vorname, "I$"))
     
+vornamen |> 
+    group_by(geburtsjahr, geschlecht) |>
+    summarize(sum_x = sum(str_detect(vorname, "x")),
+              sum_y = sum(str_detect(vorname, "y"))) |> 
+    pivot_longer(cols = c(sum_x, sum_y), names_to = "summe", values_to = "wert") |> 
+    ggplot(aes(x = geburtsjahr, y = wert, color = geschlecht)) +
+    geom_line() +
+    facet_wrap(~summe)
+    
 
-
-babynames |> 
-  mutate(
-    first = str_sub(name, 1, 1),
-    last = str_sub(name, -1, -1)
-  )
 ```
