@@ -1,0 +1,19 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://www.bfs.admin.ch/asset/de/je-d-11.02.01.02
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Polizeilich registrierte Verkehrsunfälle im Kanton Zürich seit 2011
+
+```{r}
+verkehrsunfaelle_in <- read_csv(here::here("data/ktzh-verkehrsunfaelle/KTZH_00000718_00001783.csv"))
+```
+
