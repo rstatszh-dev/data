@@ -1,0 +1,16 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://www.bfs.admin.ch/asset/de/je-d-11.02.01.02
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Unfall-, Umwelt- und Gesundheitskosten des motorisierten Verkehrs 
+
+Methodik: https://www.are.admin.ch/are/de/home/mobilitaet/grundlagen-und-daten/kosten-und-nutzen-des-verkehrs.html
