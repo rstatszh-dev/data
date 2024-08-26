@@ -1,0 +1,293 @@
+﻿jahr,direktion_code,direktion_name,amt_bereich_code,amt_bereich_name,indikator,wert,einheit,anmerkung_1,anmerkung_2
+2020,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Angestellte,60.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Uebriges Personal,7.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Angestellte,66.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Uebriges Personal,1.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Angestellte,380.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Uebriges Personal,0.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Angestellte,82.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Uebriges Personal,0.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Angestellte,907.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Uebriges Personal,11.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Angestellte,54.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Angestellte,57.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Angestellte,29.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Uebriges Personal,1.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Angestellte,54.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Uebriges Personal,2.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Angestellte,6.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Angestellte,3.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Uebriges Personal,0.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Angestellte,10.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Uebriges Personal,0.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Angestellte,13.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Angestellte,40.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Uebriges Personal,6.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Angestellte,75.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Angestellte,61.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3100,Kantonspolizei,Angestellte,3578.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3100,Kantonspolizei,Uebriges Personal,14.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Angestellte,394.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Uebriges Personal,0.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3300,Migrationsamt,Angestellte,171.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3300,Migrationsamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Angestellte,127.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3500,Sozialamt,Angestellte,184.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3500,Sozialamt,Uebriges Personal,27.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,3,Sicherheitsdirektion,3700,Sportamt,Angestellte,14.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,3,Sicherheitsdirektion,3700,Sportamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4000,Generalsekretariat,Angestellte,14,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4000,Generalsekretariat,Uebriges Personal,1.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4100,Finanzverwaltung,Angestellte,47.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4100,Finanzverwaltung,Uebriges Personal,0.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4400,Steuern Betriebsteil,Angestellte,727,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4400,Steuern Betriebsteil,Uebriges Personal,2.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4500,Personalamt,Angestellte,47,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4500,Personalamt,Uebriges Personal,193,Beschaeftigungsumfang,Mit unterstellten Auszubildenden (KV- und IKT-Lernende),"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4610,Amt fuer Informatik,Angestellte,104.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4610,Amt fuer Informatik,Uebriges Personal,0.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,4,Finanzdirektion,4700,Drucksachen und Material,Angestellte,35.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,4,Finanzdirektion,4700,Drucksachen und Material,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Angestellte,16.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Angestellte,52.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Angestellte,746.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Uebriges Personal,1.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,6,Gesundheitsdirektion,6000,Steuerung Gesundheitsversorgung,Angestellte,109,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,6,Gesundheitsdirektion,6000,Steuerung Gesundheitsversorgung,Uebriges Personal,3.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,6,Gesundheitsdirektion,6100,Aufsicht und Bewilligungen im Gesundheitswesen,Angestellte,166.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,6,Gesundheitsdirektion,6100,Aufsicht und Bewilligungen im Gesundheitswesen,Uebriges Personal,7.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,6,Gesundheitsdirektion,6150,Arzneimittelversorgung,Angestellte,139.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,6,Gesundheitsdirektion,6150,Arzneimittelversorgung,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7000,Bildungsverwaltung,Angestellte,325.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7000,Bildungsverwaltung,Uebriges Personal,4.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7100,Lehrmittelverlag,Angestellte,58.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7100,Lehrmittelverlag,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Angestellte,11790.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7301,Mittelschulen,Angestellte,1926.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7301,Mittelschulen,Uebriges Personal,7.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7306,Berufsbildung,Angestellte,1523.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7306,Berufsbildung,Uebriges Personal,33.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Angestellte,476.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Uebriges Personal,5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Angestellte,121.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Uebriges Personal,3.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8000,Generalsekretariat,Angestellte,73,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8000,Generalsekretariat,Uebriges Personal,1.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8100,Hochbauamt,Angestellte,122.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8100,Hochbauamt,Uebriges Personal,1.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8300,Amt fuer Raumentwicklung,Angestellte,133.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8300,Amt fuer Raumentwicklung,Uebriges Personal,9.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8400,Tiefbauamt,Angestellte,466.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8400,Tiefbauamt,Uebriges Personal,23.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Angestellte,239.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Uebriges Personal,13,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8700,Immobilienamt,Angestellte,144.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8700,Immobilienamt,Uebriges Personal,5.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2020,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Angestellte,361.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2020,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Uebriges Personal,41.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Angestellte,68.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Uebriges Personal,7.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Angestellte,71.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Uebriges Personal,1.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Angestellte,385.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Uebriges Personal,1.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Angestellte,85.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Angestellte,970.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Uebriges Personal,11.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Angestellte,55.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Angestellte,58.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Angestellte,31.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Uebriges Personal,2.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Angestellte,60.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Uebriges Personal,3.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Angestellte,6.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Angestellte,3.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Uebriges Personal,0.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Angestellte,16.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Uebriges Personal,0.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Angestellte,12.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Angestellte,44.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Uebriges Personal,6.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Angestellte,76.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Angestellte,61,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3100,Kantonspolizei,Angestellte,3549.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3100,Kantonspolizei,Uebriges Personal,12.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Angestellte,401.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3300,Migrationsamt,Angestellte,165,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3300,Migrationsamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Angestellte,126.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3500,Sozialamt,Angestellte,183.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3500,Sozialamt,Uebriges Personal,27.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,3,Sicherheitsdirektion,3700,Sportamt,Angestellte,14.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,3,Sicherheitsdirektion,3700,Sportamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4000,Generalsekretariat,Angestellte,15.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4000,Generalsekretariat,Uebriges Personal,1.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4100,Finanzverwaltung,Angestellte,52,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4100,Finanzverwaltung,Uebriges Personal,0.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4400,Steuern Betriebsteil,Angestellte,724.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4400,Steuern Betriebsteil,Uebriges Personal,4.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4500,Personalamt,Angestellte,47.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4500,Personalamt,Uebriges Personal,196.5,Beschaeftigungsumfang,Mit unterstellten Auszubildenden (KV- und IKT-Lernende),"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4610,Amt fuer Informatik,Angestellte,127.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4610,Amt fuer Informatik,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,4,Finanzdirektion,4700,Drucksachen und Material,Angestellte,33.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,4,Finanzdirektion,4700,Drucksachen und Material,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Angestellte,18.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Angestellte,49.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Uebriges Personal,2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Angestellte,817,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Uebriges Personal,1.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,6,Gesundheitsdirektion,6000,Steuerung Gesundheitsversorgung,Angestellte,125.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,6,Gesundheitsdirektion,6000,Steuerung Gesundheitsversorgung,Uebriges Personal,0.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,6,Gesundheitsdirektion,6100,Aufsicht und Bewilligungen im Gesundheitswesen,Angestellte,169.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,6,Gesundheitsdirektion,6100,Aufsicht und Bewilligungen im Gesundheitswesen,Uebriges Personal,9.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,6,Gesundheitsdirektion,6150,Arzneimittelversorgung,Angestellte,140.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,6,Gesundheitsdirektion,6150,Arzneimittelversorgung,Uebriges Personal,2.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7000,Bildungsverwaltung,Angestellte,327.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7000,Bildungsverwaltung,Uebriges Personal,3.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7100,Lehrmittelverlag,Angestellte,60.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7100,Lehrmittelverlag,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Angestellte,12217.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7301,Mittelschulen,Angestellte,1996.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7301,Mittelschulen,Uebriges Personal,8.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7306,Berufsbildung,Angestellte,1540.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7306,Berufsbildung,Uebriges Personal,21.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Angestellte,501.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Uebriges Personal,6.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Angestellte,123,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Uebriges Personal,3.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8000,Generalsekretariat,Angestellte,75.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8000,Generalsekretariat,Uebriges Personal,2.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8100,Hochbauamt,Angestellte,124,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8100,Hochbauamt,Uebriges Personal,1.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8300,Amt fuer Raumentwicklung,Angestellte,137.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8300,Amt fuer Raumentwicklung,Uebriges Personal,10.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8400,Tiefbauamt,Angestellte,475.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8400,Tiefbauamt,Uebriges Personal,20.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Angestellte,237.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Uebriges Personal,14.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8700,Immobilienamt,Angestellte,151.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8700,Immobilienamt,Uebriges Personal,5.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2021,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Angestellte,355.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2021,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Uebriges Personal,39.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Angestellte,74.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,1,Regierungsrat und Staatskanzlei,1000,Regierungsrat und Staatskanzlei,Uebriges Personal,7.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Angestellte,75.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2201,Generalsekretariat,Uebriges Personal,3.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Angestellte,391.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2204,Staatsanwaltschaft,Uebriges Personal,3.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Angestellte,86.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2205,Jugendstrafrechtspflege,Uebriges Personal,1.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Angestellte,1034.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2206,Justizvollzug und Wiedereingliederung,Uebriges Personal,11.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Angestellte,57.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2207,Gemeindeamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Angestellte,60.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2221,Handelsregisteramt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Angestellte,30.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2223,Statistisches Amt,Uebriges Personal,2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Angestellte,65.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2224,Staatsarchiv,Uebriges Personal,4.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Angestellte,7.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2232,Kantonale Opferhilfestelle,Uebriges Personal,3.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Angestellte,3.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2233,Fachstelle Gleichstellung,Uebriges Personal,3.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Angestellte,15.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2234,Fachstelle Kultur,Uebriges Personal,3.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Angestellte,13.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2241,Fachstelle Integration,Uebriges Personal,3.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Angestellte,47.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2251,Bezirksraete,Uebriges Personal,3.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Angestellte,79.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,2,Direktion der Justiz und des Innern,2261,Statthalteraemter,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Angestellte,69.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3000,Generalsekretariat Zentrale Vollzugsaufgaben und Rekursabteilung,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3100,Kantonspolizei,Angestellte,3514.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3100,Kantonspolizei,Uebriges Personal,10.7,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Angestellte,404.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3200,Strassenverkehrsamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3300,Migrationsamt,Angestellte,163.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3300,Migrationsamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Angestellte,127.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3400,Amt fuer Militaer und Zivilschutz,Uebriges Personal,1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3500,Sozialamt,Angestellte,192.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3500,Sozialamt,Uebriges Personal,25,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,3,Sicherheitsdirektion,3700,Sportamt,Angestellte,14.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,3,Sicherheitsdirektion,3700,Sportamt,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4000,Generalsekretariat,Angestellte,15.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4000,Generalsekretariat,Uebriges Personal,1.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4100,Finanzverwaltung,Angestellte,54.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4100,Finanzverwaltung,Uebriges Personal,0.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4400,Steuern Betriebsteil,Angestellte,716.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4400,Steuern Betriebsteil,Uebriges Personal,3.1,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4500,Personalamt,Angestellte,50,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4500,Personalamt,Uebriges Personal,195.3,Beschaeftigungsumfang,Mit unterstellten Auszubildenden (KV- und IKT-Lernende),"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4610,Amt fuer Informatik,Angestellte,144.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4610,Amt fuer Informatik,Uebriges Personal,0.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4620,IKT-Sicherheitsbeauftragter,Angestellte,2.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4620,IKT-Sicherheitsbeauftragter,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,4,Finanzdirektion,4700,Drucksachen und Material,Angestellte,30.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,4,Finanzdirektion,4700,Drucksachen und Material,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Angestellte,21.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,5,Volkswirtschaftsdirektion,5000,Generalsekretariat,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Angestellte,50.3,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,5,Volkswirtschaftsdirektion,5205,Amt fuer Mobilitaet,Uebriges Personal,3.6,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Angestellte,751.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,5,Volkswirtschaftsdirektion,5300,Amt fuer Wirtschaft und Arbeit,Uebriges Personal,1.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,6,Gesundheitsdirektion,6000,Generalsekretariat,Angestellte,55.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,6,Gesundheitsdirektion,6000,Generalsekretariat,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,6,Gesundheitsdirektion,6010,Amt für Gesundheit,Angestellte,73.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,6,Gesundheitsdirektion,6010,Amt für Gesundheit,Uebriges Personal,0.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,6,Gesundheitsdirektion,6100,"Kantonale Heilmittelkontrolle, Kantonales Labor, Veterinäramt",Angestellte,171.5,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,6,Gesundheitsdirektion,6100,"Kantonale Heilmittelkontrolle, Kantonales Labor, Veterinäramt",Uebriges Personal,9.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,6,Gesundheitsdirektion,6150,Kantonsapotheke,Angestellte,138.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,6,Gesundheitsdirektion,6150,Kantonsapotheke,Uebriges Personal,2.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7000,Bildungsverwaltung,Angestellte,339.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7000,Bildungsverwaltung,Uebriges Personal,3.4,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7100,Lehrmittelverlag,Angestellte,62.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7100,Lehrmittelverlag,Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Angestellte,12517.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7200,"Volksschule, inkl. Vikare",Uebriges Personal,0,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7301,Mittelschulen,Angestellte,2054.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7301,Mittelschulen,Uebriges Personal,9.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7306,Berufsbildung,Angestellte,1564.7,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7306,Berufsbildung,Uebriges Personal,12.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Angestellte,499.8,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7501,Kinder- und Jugendhilfe,Uebriges Personal,6.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Angestellte,156.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,7,Bildungsdirektion,7502,Berufs- und Studien- und Laufbahnberatung,Uebriges Personal,3.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8000,Generalsekretariat,Angestellte,76.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8000,Generalsekretariat,Uebriges Personal,3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8100,Hochbauamt,Angestellte,126.1,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8100,Hochbauamt,Uebriges Personal,2.5,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8300,Amt fuer Raumentwicklung,Angestellte,143.6,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8300,Amt fuer Raumentwicklung,Uebriges Personal,10.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8400,Tiefbauamt,Angestellte,476.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8400,Tiefbauamt,Uebriges Personal,17.2,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Angestellte,238.4,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8500,"Amt fuer Abfall, Wasser, Energie und Luft",Uebriges Personal,12.9,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8700,Immobilienamt,Angestellte,156.2,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8700,Immobilienamt,Uebriges Personal,5.8,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"
+2022,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Angestellte,361.9,Beschaeftigungsumfang,,Angestellte in Vollzeiteinheiten: Anstellungen gemäss PVO und Lehrpersonen (unbefristet und befristet)
+2022,8,Baudirektion,8800,Amt fuer Landschaft und Natur,Uebriges Personal,37.3,Beschaeftigungsumfang,,"Uebriges Personal: Mitglieder von Behoerden, Lernende, Praktikanten"

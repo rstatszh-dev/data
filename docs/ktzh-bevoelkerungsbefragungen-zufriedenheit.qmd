@@ -1,0 +1,21 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/1341@statistisches-amt-kanton-zuerich
+
+#  Bevölkerungsbefragung im Kanton Zürich zur Zufriedenheit mit der Wohngemeinde 
+
+```{r}
+
+read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759.csv")) |> View()
+
+read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002918.csv")) 
+```

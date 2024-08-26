@@ -1,0 +1,28 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://www.web.statistik.zh.ch/ogd/datenkatalog/standalone/datasets/1321@personalamt-kanton-zuerich/distributions/2559
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Anzahl Beschäftigte in Vollzeiteinheiten nach Direktionen, Ämtern und Bereichen ab 2020
+
+```{r}
+beschaeftigte_in <- read_csv(here::here("data/ktzh-anzahl-beschaeftigte/KTZH_00001321_00002559.csv"))
+```
+
+
+```{r}
+beschaeftigte_in |> 
+    distinct(direktion_name)
+
+beschaeftigte_in |>
+    distinct(direktion_name, amt_bereich_name) 
+```
+
