@@ -1,0 +1,33 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2683@awel-kanton-zuerich
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Treibhausgasemissionen im Kanton Zürich
+
+Emissionen der wichtigsten Klimagase (CO2, CH4, N2O und synthetische Gase) im Kanton Zürich. Die aufgeführten Treibhausgasemissionen sind als CO2-Äquivalente in Tonnen pro Jahr ausgewiesen und werden nach dem Territorialprinzip bilanziert. Das bedeutet, dass alle innerhalb des Kantons Zürich anfallenden Emissionen für die Bilanz berücksichtigt werden. Die Emissionsbilanzierung liegt als Zeitreihe ab 1990 vor. 
+
+Sie enthält die folgenden Variablen:
+
+- `jahr` = Zeitpunkt der Emissionsdaten
+- `hauptgruppe` = Zusammenfassung der wichtigsten Emittentengruppen
+- `untergruppe` = detailliertere Quellenangabe (z.B. Abfalldeponie, Landwirtschaftliche Böden, ...)  
+- `nfr` = Nomeclature for Reporting, Internationale Systematik zur Klassierung von Emissionen. Wird benutzt von IPCC, UNFCCC, CLRTAP, EMEP, EMIS 
+- `emission` = Emissionswert (CO2-Äquivalente und Tonnen pro Jahr)
+- `quelle`: verwendete Datengrundlage [string]; weiterführende Informationen sind weiter unten aufgeführt -> Inhalte des Attributes `quelle` 
+- `thg` = relevantes Klimagas 
+- `thg_agg` = Vereinheitlichung/Umrechung aller Klimagase in CO2-Äquivalente (CO2eq) 
+- `einheit` = Masseinheit der CO2eq-Emissionen, abgekürzt: `t/a` 
+- `einheit_lang` = Masseinheit der Emissionen, ausgeschrieben: "Tonnen pro Jahr"
+
+```{r}
+treibhausgase_in <- read_csv(here::here("data/ktzh-treibhausgase/KTZH_00002683_00005504.csv"))
+```
