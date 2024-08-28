@@ -29,24 +29,26 @@ Sie enthält die folgenden Variablen:
 - `einheit_lang` = Masseinheit der Emissionen, ausgeschrieben: "Tonnen pro Jahr"
 
 ```{r}
-treibhausgase_in <- read_csv(here::here("data/ktzh-treibhausgase/KTZH_00002683_00005504.csv")) |>
+treibhausgase_in <- read_csv(here::here("data/ktzh-treibhausgase/KTZH_00002683_00005504.csv")) 
+
+treibhausgase <- treibhausgase_in |>
     select(-nfr, -quelle, -einheit, -einheit_lang) 
 ```
 
 ```{r}
 
-glimpse(treibhausgase_in)
+glimpse(treibhausgase)
 
-treibhausgase_in |> 
+treibhausgase |> 
     distinct(hauptgruppe)
 
-treibhausgase_in |> 
+treibhausgase |> 
     count(thg_agg)
 
-treibhausgase_in |> 
+treibhausgase |> 
     count(hauptgruppe, untergruppe)
 
-treibhausgase_in |> 
+treibhausgase |> 
     count(jahr)
  
 
@@ -55,26 +57,26 @@ treibhausgase_in |>
 ## filter()
 
 ```{r}
-treibhausgase_in |> 
+treibhausgase |> 
     filter(hauptgruppe == "Verkehr")
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(hauptgruppe != "Verkehr")
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(hauptgruppe == "Verkehr", jahr == 2022)
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(thg == "CH4" | thg == "CO2" | thg == "N20")
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(thg %in% c("CH4", "CO2", "N20"))
 
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(jahr > 2010)
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(jahr <= 2010)
 
 
@@ -84,7 +86,7 @@ treibhausgase_in |>
 Speichern eines resultierenden Dataframes als neues Objekt:
 
 ```{r}
-treibhausgase_verkehr <- treibhausgase_in |> 
+treibhausgase_verkehr <- treibhausgase |> 
     filter(hauptgruppe == "Verkehr", jahr == 2022) 
 ```
 
@@ -128,26 +130,10 @@ treibhausgase_verkehr |>
     mutate(emission_co2eq_kg = emission * 1000) 
 ```
 
-## summarise
-
-Die Funktion `summarise()` reduziert mehrere Werte auf eine Zusammenfassung.
+## daten visualisierung
 
 ```{r}
-
-treibhausgase_in |> 
-    summarise()
-
-treibhausgase_in |> 
-    summarise(
-        summe_emission = sum(emission)
-    )
-
-```
-
-
-
-```{r}
-treibhausgase_in |> 
+treibhausgase |> 
     group_by(jahr, hauptgruppe, thg) |> 
     summarise(
         summe_emission = sum(emission)
@@ -156,13 +142,13 @@ treibhausgase_in |>
     geom_point() +
     facet_wrap(~hauptgruppe)
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(hauptgruppe == "Gebäude") |> 
     ggplot(aes(x = jahr, y = emission, color = untergruppe)) +
     geom_point() +
     geom_path()
 
-treibhausgase_in |> 
+treibhausgase |> 
     filter(hauptgruppe == "Verkehr") |> 
     ggplot(aes(x = jahr, y = emission, color = untergruppe)) +
     geom_point() +
@@ -170,8 +156,3 @@ treibhausgase_in |>
 
 
 ```
-
-- Die Tastenkombination für den senkrechten Strich \| (OR) in US/CH ist: Shift + / (Windows) und Option + / (Mac)
-- Das Tastaturkürzel für den vertikalen Balken \| (OR) in UK: Es ist kompliziert
-- Tastaturkürzel für den Pipe-Operator: Strg / Cmd + Shift + M
-- Tastaturkürzel für den Zuweisungsoperator: Alt + -
