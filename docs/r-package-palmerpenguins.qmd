@@ -1,0 +1,22 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+Link: https://allisonhorst.github.io/palmerpenguins/
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(palmerpenguins)
+```
+
+# Palmer penguins
+
+The palmerpenguins data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
+
+```{r}
+
+```
+
