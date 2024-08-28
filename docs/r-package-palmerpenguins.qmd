@@ -110,3 +110,4 @@ penguins %>%
     mean = mean(bill_depth_mm) # NAs müssen hier nicht mehr ignoriert werden
   )
 
+```

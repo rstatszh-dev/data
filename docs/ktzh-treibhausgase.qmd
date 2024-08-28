@@ -33,6 +33,10 @@ treibhausgase_in <- read_csv(here::here("data/ktzh-treibhausgase/KTZH_00002683_0
 
 treibhausgase <- treibhausgase_in |>
     select(-nfr, -quelle, -einheit, -einheit_lang) 
+
+# daten für Übungen speichern
+treibhausgase |> 
+    write_csv(here::here("data/ktzh-treibhausgase/ktzh-treibhausgase.csv"))
 ```
 
 ```{r}
@@ -50,7 +54,7 @@ treibhausgase |>
 
 treibhausgase |> 
     count(jahr)
- 
+
 
 ```
 
