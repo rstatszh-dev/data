@@ -15,7 +15,64 @@ Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/data
 
 ```{r}
 
-read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759.csv")) |> View()
+befragung <- read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759.csv")) 
 
-read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002918.csv")) 
+
+codebook <- read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002918.csv")) |> 
+    rename(id = ...1)
+
+codebook_frage7a1 <- codebook |> 
+    filter(Variable %in% c("Frage7_A1", "geschlecht", "alter_koh")) 
+
+antwortskala_frage7a1 <- codebook_frage7a1 |> 
+    filter(id == 59) |> 
+    pull(Antwortskala)
+
+# Dieser Code wurde mittels AI geschrieben: https://www.perplexity.ai/search/in-r-tidyverse-turn-the-follow-BpoeP_WIRkG4OSYznMjWyQ
+
+code_antwort_frage7a1 <- str_split(antwortskala_frage7a1, ", ", simplify = TRUE) |> 
+    as.vector() |> 
+    as_tibble() |>
+    rename(full_value = value) |>
+    mutate(
+        split_value = str_remove(full_value, "^\\S+\\s"),
+        code = str_extract(full_value, "^\\S+"),
+        split_value = str_replace_all(split_value, "\\s{2,}", " ")
+    ) |>
+    select(code, antwort = split_value) |> 
+    filter(code != "NA") |> 
+    mutate(code = as.numeric(code))
+
+# Join um Code für Frage 7a mit Antwort zu verbinden
+
+befragung_frage7a1 <- befragung |> 
+    select(Frage7_A1, geschlecht, alter = alter_koh) |> 
+    rename(code = Frage7_A1) |> 
+    mutate(geschlecht = case_when(
+        geschlecht == 1 ~ "männlich",
+        geschlecht == 2 ~ "weiblich"
+    ))  |> 
+    left_join(code_antwort_frage7a1) |> 
+    select(-code)
+
+##
+
+antwort_levels <- c("viel zu tief", "eher zu tief", "gerade angemessen", "eher zu hoch", "viel zu hoch", "weiss nicht / keine Angabe")
+
+order_age_groups <- function(x) {
+  case_when(
+    x == "80+" ~ 14,
+    TRUE ~ as.numeric(str_extract(x, "^\\d+"))
+  )
+}
+
+# Order the age groups
+ordered_groups <- df %>%
+  arrange(order_age_groups(age_group)) %>%
+  pull(age_group)
+
+# Faktoriesierung der Daten
+befragung_frage7a1 |> 
+    mutate(antwort = factor(antwort, levels = antwort_levels)) 
+
 ```
