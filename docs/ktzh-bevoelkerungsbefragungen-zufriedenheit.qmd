@@ -77,7 +77,7 @@ befragung_frage7a1_aus <- befragung_frage7a1 |>
 
 # daten speicher
 
-write_csv(befragung_frage7a1_aus, here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759_frage7a1_tidy.csv"))
+write_csv(befragung_frage7a1_aus, here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759_frage7a1.csv"))
 
 
 ```
