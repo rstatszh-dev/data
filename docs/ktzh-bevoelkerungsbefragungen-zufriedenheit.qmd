@@ -22,7 +22,7 @@ codebook <- read_csv(here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/
     rename(id = ...1)
 
 codebook_frage7a1 <- codebook |> 
-    filter(Variable %in% c("Frage7_A1", "geschlecht", "alter_koh")) 
+    filter(Variable %in% c("Frage7_A1", "geschlecht", "alter_koh", "gemeinde_groesse")) 
 
 antwortskala_frage7a1 <- codebook_frage7a1 |> 
     filter(id == 59) |> 
@@ -46,14 +46,18 @@ code_antwort_frage7a1 <- str_split(antwortskala_frage7a1, ", ", simplify = TRUE)
 # Join um Code für Frage 7a mit Antwort zu verbinden
 
 befragung_frage7a1 <- befragung |> 
-    select(Frage7_A1, geschlecht, alter = alter_koh) |> 
+    select(Frage7_A1, geschlecht, alter = alter_koh, gemeinde_groesse, bezirk_name = bezirk_name_kurz) |> 
     rename(code = Frage7_A1) |> 
     mutate(geschlecht = case_when(
         geschlecht == 1 ~ "männlich",
         geschlecht == 2 ~ "weiblich"
     ))  |> 
+    mutate(gemeinde_groesse = case_when(
+        gemeinde_groesse == ">100000" & bezirk_name == "Zürich" ~ "Zürich",
+        gemeinde_groesse == ">100000" & bezirk_name == "Winterthur" ~ "Winterthur",
+        TRUE ~ gemeinde_groesse)) |> 
     left_join(code_antwort_frage7a1) |> 
-    select(-code)
+    select(-code) 
 
 ##
 
@@ -69,11 +73,27 @@ alter_levels <- befragung_frage7a1 |>
     unique() |> 
     sort() 
 
+befragung_frage7a1 |> 
+    pull(gemeinde_groesse) |> 
+    unique() |> 
+    sort()
+
+gemeinde_groesse_level <- c("<1000",
+                            "1001 bis 2000",
+                            "2001 bis 5000",
+                            "5001 bis 10000",
+                            "10001 bis 20000",
+                            "20001 bis 50000",
+                            "Winterthur",
+                            "Zürich")
+
 # Faktoriesierung der Daten
 
 befragung_frage7a1_aus <- befragung_frage7a1 |> 
     mutate(antwort = factor(antwort, levels = antwort_levels),
-           alter = factor(alter, levels = alter_levels)) 
+           alter = factor(alter, levels = alter_levels),
+           gemeinde_groesse = factor(gemeinde_groesse, 
+                                           levels = gemeinde_groesse_level))
 
 # daten speicher
 
