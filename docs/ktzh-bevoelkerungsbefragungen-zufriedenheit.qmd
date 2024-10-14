@@ -40,13 +40,16 @@ code_antwort_frage7a1 <- str_split(antwortskala_frage7a1, ", ", simplify = TRUE)
         split_value = str_replace_all(split_value, "\\s{2,}", " ")
     ) |>
     select(code, antwort = split_value) |> 
+    # entferne weiss nicht / keine Antwort
     filter(code != "NA") |> 
     mutate(code = as.numeric(code))
 
 # Join um Code für Frage 7a mit Antwort zu verbinden
 
 befragung_frage7a1 <- befragung |> 
-    select(Frage7_A1, geschlecht, alter = alter_koh, gemeinde_groesse, bezirk_name = bezirk_name_kurz) |> 
+    select(Frage7_A1, geschlecht, 
+           alter = alter_koh, 
+           gemeinde_groesse, bezirk_name = bezirk_name_kurz) |> 
     rename(code = Frage7_A1) |> 
     mutate(geschlecht = case_when(
         geschlecht == 1 ~ "männlich",
@@ -57,6 +60,8 @@ befragung_frage7a1 <- befragung |>
         gemeinde_groesse == ">100000" & bezirk_name == "Winterthur" ~ "Winterthur",
         TRUE ~ gemeinde_groesse)) |> 
     left_join(code_antwort_frage7a1) |> 
+    # entferne weiss nicht / keine Antwort 
+    filter(!is.na(code)) |>
     select(-code) 
 
 ##
@@ -65,8 +70,7 @@ antwort_levels <- c("viel zu tief",
                     "eher zu tief", 
                     "gerade angemessen", 
                     "eher zu hoch", 
-                    "viel zu hoch", 
-                    "weiss nicht / keine Angabe")
+                    "viel zu hoch")
 
 alter_levels <- befragung_frage7a1 |>
     pull(alter) |> 
