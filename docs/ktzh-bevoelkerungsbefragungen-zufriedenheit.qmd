@@ -57,22 +57,27 @@ befragung_frage7a1 <- befragung |>
 
 ##
 
-antwort_levels <- c("viel zu tief", "eher zu tief", "gerade angemessen", "eher zu hoch", "viel zu hoch", "weiss nicht / keine Angabe")
+antwort_levels <- c("viel zu tief", 
+                    "eher zu tief", 
+                    "gerade angemessen", 
+                    "eher zu hoch", 
+                    "viel zu hoch", 
+                    "weiss nicht / keine Angabe")
 
-order_age_groups <- function(x) {
-  case_when(
-    x == "80+" ~ 14,
-    TRUE ~ as.numeric(str_extract(x, "^\\d+"))
-  )
-}
-
-# Order the age groups
-ordered_groups <- df %>%
-  arrange(order_age_groups(age_group)) %>%
-  pull(age_group)
+alter_levels <- befragung_frage7a1 |>
+    pull(alter) |> 
+    unique() |> 
+    sort() 
 
 # Faktoriesierung der Daten
-befragung_frage7a1 |> 
-    mutate(antwort = factor(antwort, levels = antwort_levels)) 
+
+befragung_frage7a1_aus <- befragung_frage7a1 |> 
+    mutate(antwort = factor(antwort, levels = antwort_levels),
+           alter = factor(alter, levels = alter_levels)) 
+
+# daten speicher
+
+write_csv(befragung_frage7a1_aus, here::here("data/ktzh-bevoelkerungsbefragung-zufriedenheit/KTZH_00001341_00002759_frage7a1_tidy.csv"))
+
 
 ```
