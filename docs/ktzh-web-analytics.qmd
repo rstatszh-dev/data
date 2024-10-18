@@ -4,8 +4,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2522@statistisches-amt-kanton-zuerich
-
 ```{r}
 library(tidyverse)
 library(readxl)
@@ -16,8 +14,16 @@ library(lubridate)
 
 Dieser Datensatz enthält die Web Analytics des Datenkatalogs des Kantons Zürich (www.zh.ch/daten). Die Daten zeigen, welche Datensätze (dataset) und Ressourcen (distribution) (siehe Definition in DCAP-AP CH, unten verlinkt) wie oft aufgerufen und besucht wurden. Die Aufrufe und Besuche von externen Webseiten, welche den Datenkatalog eingebunden haben, werden mitgezählt. Aus technischen Gründen werden nicht alle Zugriffe registriert (bei Verwendung von Werbeblockern z.B 'Ad-Blocker'). Wir beziehen die Daten von mehreren Matomo APIs. Datensätze und Ressourcen mit 0 Aufrufen/Besuchenden sind nicht ausgewiesen. Aufrufe über Metadatenkatalog wie opendata.swiss sind nicht ausgewiesen.
 
+Link: https://www.zh.ch/de/politik-staat/statistik-daten/datenkatalog.html#/datasets/2522@statistisches-amt-kanton-zuerich
+
 ```{r}
+
+web_analytics_in1 <- read_csv(here::here("data/ktzh-web-analytics/data_stat.csv"))
+
 web_analytics_in <- read_csv(here::here("data/ktzh-web-analytics/KTZH_00002522_00005024.csv"))
+
+web_analytics_in3 <- read_csv(here::here("data/ktzh-web-analytics/KTZH_00002522_00005043.csv"))
+
 
 ```
 
@@ -26,7 +32,13 @@ web_analytics <- web_analytics_in |>
     mutate(jahr = year(datum),
            monat = month(datum, label = TRUE, abbr = TRUE, locale = "de_DE"),
            woche = week(datum),
-           wochentag = wday(datum)) 
+           wochentag = wday(datum, label = TRUE, abbr = TRUE, week_start = 1)) 
+
+web_analytics1 <- web_analytics_in1 |> 
+    mutate(jahr = year(date),
+           monat = month(date, label = TRUE, abbr = TRUE, locale = "de_DE"),
+           woche = week(date),
+           wochentag = wday(date, label = TRUE, abbr = TRUE, week_start = 1)) 
 ```
 
 ```{r}
@@ -34,8 +46,75 @@ web_analytics |>
     group_by(datensatz_titel) |> 
     summarise(klicks = sum(anzahl_klicks),
               besuchende = sum(anzahl_besuchende)) |> 
-    arrange(desc(klicks)) |> 
-    View()
+    arrange(desc(klicks)) 
 ```
 
+```{r}
+web_analytics |> 
+    ggplot(aes(x = wochentag, y = anzahl_klicks)) +
+    geom_point() 
 
+# Wieviele download?
+
+web_analytics |> 
+    summarise(klicks = sum(anzahl_klicks),
+              besuchende = sum(anzahl_besuchende))
+
+# Wieviele downloads pro jahr?
+
+web_analytics |> 
+    group_by(jahr) |> 
+    summarise(klicks = sum(anzahl_klicks),
+              besuchende = sum(anzahl_besuchende))
+
+# Wieviele downloads pro monat?
+
+web_analytics |> 
+    group_by(jahr, monat) |> 
+    summarise(klicks = sum(anzahl_klicks),
+              besuchende = sum(anzahl_besuchende))
+
+# Wieviele downloads pro wochentag?
+
+web_analytics |> 
+    group_by(monat, wochentag) |> 
+    summarise(klicks = sum(anzahl_klicks),
+              besuchende = sum(anzahl_besuchende)) 
+
+web_analytics1 |> 
+    group_by(monat, wochentag) |> 
+    summarise(besuchende = sum(nb_visits)) |> 
+    ggplot(aes(x = monat, y = besuchende, color = wochentag, group = wochentag)) +
+    geom_point() +
+    geom_path() +
+    scale_color_brewer(type = "qual", palette = 1)
+
+
+web_analytics1 |> 
+    count(monat, jahr) |> View()
+
+web_analytics |> 
+    filter(anzahl_klicks < 100) |> 
+    group_by(monat, wochentag) |> 
+    summarise(klicks = sum(anzahl_klicks),
+              besuchende = sum(anzahl_besuchende)) |> 
+    ggplot(aes(x = monat, y = klicks, color = wochentag, group = wochentag)) +
+    geom_point() +
+    geom_path() +
+    scale_color_brewer(type = "qual", palette = 1)
+
+
+web_analytics |> 
+    ggplot(aes(x = datum, y = anzahl_klicks)) +
+    geom_point() 
+
+
+web_analytics |> 
+    filter(anzahl_klicks < 100) |> 
+    arrange(desc(anzahl_klicks)) |> 
+    View()
+
+
+
+
+```
