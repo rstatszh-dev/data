@@ -51,10 +51,9 @@ ghg_long |>
     theme_minimal(base_size = 12) +
     theme(panel.grid.major.x = element_blank(),
           axis.text.x = element_text(angle = 90, 
-                                     vjust = 0.5, 
-                                     hjust = 10))
+                                     vjust = 0.5))
 
-ggsave(filename = here::here("images/treibhausgasbilnaz-stadt-zuerich.png"))
+ggsave(filename = here::here("images/treibhausgasbilanz-stadt-zuerich.png"))
 
 ghg_long |>   
     ggplot(aes(x = jahr, y = emissionen, fill = energietraeger)) +
