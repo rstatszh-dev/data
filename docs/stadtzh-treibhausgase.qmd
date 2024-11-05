@@ -1,0 +1,85 @@
+---
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+```
+
+### Treibhausgasemissionen Stadt Zürich, ohne Klimakorrektur, 1990 - 2016 
+
+Treibhausgasemissionen in der Stadt Zürich, inklusive internationalem Flugverkehr, ohne Klimakorrektur [t CO2eq/Person]
+
+- https://opendata.swiss/de/dataset/treibhausgasemissionen-stadt-zurich-ohne-klimakorrektur-1990-20163/resource/0c342b77-ad97-46cf-b138-cb83decf96f3
+
+```{r}
+
+ghg <- read_csv("https://data.stadt-zuerich.ch/dataset/ugz_treibhausgasbilanz/download/ugz_treibhausgasbilanz.csv")
+```
+
+
+```{r}
+
+ghg_long <- ghg |> 
+    rename(jahr = Jahr) |> 
+    pivot_longer(cols = !jahr, names_to = "energietraeger", values_to = "emissionen")  |> 
+    group_by(jahr) |> 
+    mutate(prozent = emissionen / sum(emissionen) * 100) |> 
+    ungroup()
+
+```
+
+```{r}
+
+library(forcats)
+library(ggthemes)
+
+ghg_long |> 
+    mutate(jahr = as_factor(jahr)) |> 
+    ggplot(aes(x = jahr, y = emissionen, fill = energietraeger)) +
+    geom_col() +
+    scale_fill_colorblind() +
+    scale_y_continuous(breaks = seq(0, 7, 1), expand = c(0, 0), limits = c(0, 7)) + 
+    labs(title = "Treibhausgasbilanz 1990 bis 2018",
+         subtitle = "",
+         y = "Treibhausgasemissionen [t CO2eq/Person]",
+         x = NULL,
+         caption = "Daten: https://data.stadt-zuerich.ch/dataset/ugz_treibhausgasbilanz",
+         fill = "Energieträger") +
+    theme_minimal(base_size = 12) +
+    theme(panel.grid.major.x = element_blank(),
+          axis.text.x = element_text(angle = 90, 
+                                     vjust = 0.5, 
+                                     hjust = 10))
+
+ggsave(filename = here::here("images/treibhausgasbilnaz-stadt-zuerich.png"))
+
+ghg_long |>   
+    ggplot(aes(x = jahr, y = emissionen, fill = energietraeger)) +
+    geom_area() +
+    scale_fill_colorblind() +
+    scale_y_continuous(breaks = seq(0, 7, 1)) + 
+    labs(title = "Treibhausgasbilanz 1990 bis 2018",
+         y = "Treibhausgasemissionen [t CO2eq/Person]",
+         x = NULL,
+         fill = "Energieträger") +
+    theme_minimal(base_size = 12) +
+    theme(panel.grid.major.y = element_blank())
+
+ghg_long |>   
+    ggplot(aes(x = jahr, y = prozent, fill = energietraeger)) +
+    geom_area() 
+
+ghg_long |> 
+    filter(jahr == max(jahr) | jahr == min(jahr)) |> 
+    ggplot(aes(x = jahr, y = prozent, group = energietraeger, color = energietraeger)) +
+    geom_line() +
+    geom_point(size = 3) +
+    scale_x_continuous(limits = c(1990, 2016), breaks = c(1990, 2016)) +
+    scale_color_brewer(type = "qual") +
+    theme_minimal(base_size = 16) +
+    theme(panel.grid.minor = element_blank())
+
+```

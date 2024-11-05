@@ -28,7 +28,5 @@ standort_in |>
     geom_path() +
     coord_flip()
 
-
-
 ```
 
