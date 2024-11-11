@@ -9,11 +9,15 @@ library(tidyverse)
 library(readxl)
 ```
 
-Link: https://www.bfs.admin.ch/bfs/de/home/aktuell/neue-veroeffentlichungen.assetdetail.26925126.html
+Link (männlich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.32208755.html
+Link (weiblich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.32208758.html
 
 # Männliche Vornamen in der Schweiz
 
+Bemerkung: Vornamen mit weniger als 3 Nennungen werden ausgeschlossen.
+
 ```{r}
+
 vornamen_m <- read_csv(here::here("data/bfs-vornamen/ts-x-01.04.00.11.csv")) |> 
     select(-OBS_STATUS, -TIME_PERIOD) |> 
     mutate(geschlecht = "m") |>
@@ -29,6 +33,12 @@ vornamen <- vornamen_m |>
     rename(vorname = firstname,
            geburtsjahr = yearofbirth,
            wert = value)
+
+write_csv(vornamen, here::here("data/bfs-vornamen/bfs-vornamen-schweiz.csv"))
+
+vornamen |> 
+    count(vorname, wt = wert) |> 
+    arrange(n)
 ```
 
 ```{r}
@@ -43,7 +53,10 @@ vornamen |>
 vornamen |> 
     mutate(first = str_sub(vorname, 1, 1),
            last = str_sub(vorname, -1, -1)) |> 
-    count(last, geschlecht, wt = wert) |> 
+    count(last, geschlecht, wt = wert) |>
+    group_by(geschlecht) |>
+    mutate(prozent = n / sum(n) * 100) |> 
+    arrange(desc(prozent))
     
     ggplot(aes(x = reorder(last, n), y = n)) +
     geom_point() +
