@@ -7,6 +7,7 @@ editor_options:
 ```{r}
 library(tidyverse)
 library(readxl)
+library(statR)
 ```
 
 Link (männlich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.32208755.html
@@ -35,16 +36,39 @@ vornamen <- vornamen_m |>
            wert = value)
 
 write_csv(vornamen, here::here("data/bfs-vornamen/bfs-vornamen-schweiz.csv"))
-
-vornamen |> 
-    count(vorname, wt = wert) |> 
-    arrange(n)
 ```
 
 ```{r}
 
+### 
+
 vornamen |>
-    count(length = str_length(vorname), wt = wert)
+    count(length = str_length(vorname), wt = wert) |> 
+    ggplot(aes(x = factor(length), y = n)) +
+    geom_col(width = 0.8, fill = zhpal$zhwebdataviz[[1]]) +
+    # geom_text(aes(label = custom_fmt_number(n)),
+    #           vjust = -0.5,
+    #           size = 4) +
+    geom_text(aes(label = custom_fmt_number(n)),
+              vjust = -0.5,
+              size = 3) +
+    labs(x = "Anzahl Buchstaben",
+         y = NULL,
+         title = "Anzahl Buchstaben in Vornamen, Schweiz",
+         subtitle = "Jahrgänge 1915 bis 2023") +
+    scale_fill_manual() +
+    theme_stat() +
+    theme(
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line.y = element_blank(),
+        panel.grid.major.y = element_blank()
+    ) 
+
+
+vornamen |> 
+    count(vorname, wt = wert) |> 
+    arrange(n)
 
 vornamen |> 
     filter(str_length(vorname) == 20) |> 
@@ -57,8 +81,8 @@ vornamen |>
     group_by(geschlecht) |>
     mutate(prozent = n / sum(n) * 100) |> 
     arrange(desc(prozent))
-    
-    ggplot(aes(x = reorder(last, n), y = n)) +
+
+ggplot(aes(x = reorder(last, n), y = n)) +
     geom_point() +
     coord_flip() +
     facet_wrap(~geschlecht) 
@@ -69,7 +93,7 @@ vornamen |>
 
 vornamen |> 
     filter(str_detect(vorname, "I$"))
-    
+
 vornamen |> 
     group_by(geburtsjahr, geschlecht) |>
     summarize(sum_x = sum(str_detect(vorname, "x")),
@@ -78,6 +102,6 @@ vornamen |>
     ggplot(aes(x = geburtsjahr, y = wert, color = geschlecht)) +
     geom_line() +
     facet_wrap(~summe)
-    
+
 
 ```
