@@ -15,10 +15,42 @@ library(readxl)
 
 ```{r}
 
-standort_in <- read_csv(here::here("data/ktzh-standortattraktivitaet/KTZH_00002423_00004863.csv")) |> 
-    janitor::clean_names()
+standort_in <- read_csv(here::here("data/ktzh-standortattraktivitaet/KTZH_00002423_00004863.csv"), 
+                        na = "n/a")
 
 ```
+
+
+In "Zuerich" ist der ganze Datensatz enthalten. Wie kann ich x/y Diagramm machen, z.B. nur vom Anteil der Bevölkerung zwischen 15 und 64 Jahren von den verschiedenen Regionen.
+
+Du hast hier ein Beispiel eines Datensatzes, welcher in dieser Form nicht den Tidy Data Prinzipien entspricht. Die Spaltennamen Zuerich, Muenchen, etc. sind Werte und nicht Variablen. Nutze die Funktion `pivot_longer()` um die Daten in ein Tidy Format zu bringen. Bevor du `pivot_longer()` anwendest, wähle nur die folgenden Spalten mit der `select()` Funktion aus: ID, Indikator, Zuerich, Muenchen bis London. Danach kannst du dann für den Indikator ID "H&A.1" filtern und danach ein Säulendiagramm für die seches Regionen erstellen.
+
+Es gibt hier noch einen Stolperstein. `NA` Werte sind als "n/a" codiert. Du könntest dies nun mittels `mutate()` und `case_when()` korrigieren, aber das wird schnell etwas mühsam wenn es in vielen Spalten der Fall ist. Die Funktion `read_csv()` hat dafür ein hilfreiches Argument `na`. Mit diesem Argument kannst du festlegen, welche Werte schon beim Einlesen der Daten als `NA` interpretiert werden sollen. Hier ein Beispiel:
+
+```
+standort_in <- read_csv(here::here("daten/KTZH_00002423_00004863.csv"), 
+                        na = "n/a")
+```
+
+Nachdem das die Umwandlung stattfindet werden auch die Spalten korrekt as numerische Spalten eingelesen und nicht als character Spalten. 
+
+```{r}
+standort_in |>
+    # mutate(Dublin = case_when(
+    #     Dublin == "n/a" ~ NA_character_,
+    #     .default = Dublin
+    # )) |> 
+    # mutate(Dublin = as.numeric(Dublin)) |> 
+    select(ID, Indikator, Zuerich, Muenchen:London) |> 
+    pivot_longer(cols = Zuerich:London, 
+                 names_to = "Region", 
+                 values_to = "Bewertung") |> 
+    filter(ID == "H&A.1") |> 
+    ggplot(aes(x = Region, y = Bewertung)) + 
+    geom_col()
+    
+```
+
 
 ```{r}
 
