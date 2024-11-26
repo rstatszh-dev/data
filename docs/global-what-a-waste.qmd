@@ -1,0 +1,22 @@
+
+
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+waste <- read_csv(here::here("data/global-what-a-waste/raw/waste-city-level.csv"))
+
+waste_sml <- waste |> 
+  select(land = country_name, 
+         stadt = city_name,
+         iso3c, 
+         einkommen_gruppe = income_id,
+         generation_tonnen_jahr = total_msw_total_msw_generated_tons_year, 
+         einwohner = population_population_number_of_people) 
+
+write_csv(waste_sml, here::here("data/global-what-a-waste/processed/waste-city-level.csv"))
+```
+
