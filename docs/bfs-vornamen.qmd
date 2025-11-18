@@ -8,10 +8,12 @@ editor_options:
 library(tidyverse)
 library(readxl)
 library(statR)
+
+source(here::here("R/custom_fmt_number.R"))
 ```
 
-Link (männlich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.32208755.html
-Link (weiblich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.32208758.html
+Link (männlich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.36062345.html
+Link (weiblich): https://www.bfs.admin.ch/bfs/de/home/statistiken/katalog.assetdetail.36062347.html
 
 # Männliche Vornamen in der Schweiz
 
@@ -19,12 +21,12 @@ Bemerkung: Vornamen mit weniger als 3 Nennungen werden ausgeschlossen.
 
 ```{r}
 
-vornamen_m <- read_csv(here::here("data/bfs-vornamen/ts-x-01.04.00.11.csv")) |> 
+vornamen_m <- read_csv("https://dam-api.bfs.admin.ch/hub/api/dam/assets/36062345/master") |> 
     select(-OBS_STATUS, -TIME_PERIOD) |> 
     mutate(geschlecht = "m") |>
     janitor::clean_names()
 
-vornamen_w <- read_csv(here::here("data/bfs-vornamen/ts-x-01.04.00.10.csv")) |> 
+vornamen_w <- read_csv("https://dam-api.bfs.admin.ch/hub/api/dam/assets/36062347/master")|> 
     select(-OBS_STATUS, -TIME_PERIOD) |> 
     mutate(geschlecht = "w") |>
     janitor::clean_names()
